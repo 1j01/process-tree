@@ -1,0 +1,39 @@
+{
+  "name": "process-tree",
+  "description": "Find child processes",
+  "scripts": {
+    "test": "coffee test.coffee",
+    "prepublish": "coffee -o lib -c index.coffee"
+  },
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/1j01/process-tree.git"
+  },
+  "bugs": {
+    "url": "http://github.com/1j01/process-tree/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "process",
+    "processes",
+    "tree",
+    "child",
+    "children",
+    "subprocess",
+    "ps",
+    "ps-tree",
+    "process-tree",
+    "top",
+    "htop",
+    "wmic",
+    "tasks",
+    "taskmgr",
+    "task",
+    "task-manager"
+  ],
+  "main": "lib/index.js",
+  "devDependencies": {
+    "coffee-script": "^1.9.3"
+  }
+}
