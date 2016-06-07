@@ -1,6 +1,6 @@
 {
   "name": "process-tree",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Find child processes",
   "scripts": {
     "test": "coffee test.coffee",
