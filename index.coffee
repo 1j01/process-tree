@@ -38,7 +38,7 @@ module.exports = (pid, callback)->
 			for info in proc_infos
 				pid: info.pid ? info.PID ? info.ProcessId
 				ppid: info.ppid ? info.PPID ? info.ParentProcessId
-				name: info.name ? info.Name ? info.comm ? proc.cmd
+				name: info.name ? info.Name ? info.comm ? info.cmd
 		
 		children_of = (ppid)->
 			for proc in procs when "#{proc.ppid}" is "#{ppid}"
